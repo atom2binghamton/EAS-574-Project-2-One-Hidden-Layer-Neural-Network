@@ -1,0 +1,37 @@
+{
+    "learning_rates_tested": [
+        0.5,
+        1.0
+    ],
+    "hidden_sizes_tested": [
+        64,
+        128,
+        256
+    ],
+    "results": {
+        "64": {
+            "train_loss": 0.06358,
+            "train_acc": 0.9783,
+            "test_acc": 0.9749,
+            "peak_memory_mb": 929.84
+        },
+        "128": {
+            "train_loss": 0.061312,
+            "train_acc": 0.978667,
+            "test_acc": 0.9729,
+            "peak_memory_mb": 962.3
+        },
+        "256": {
+            "train_loss": 0.057045,
+            "train_acc": 0.979833,
+            "test_acc": 0.9765,
+            "peak_memory_mb": 1025.93
+        }
+    },
+    "gradient_check": {
+        "W1_100_30": 7.441572469116232e-12,
+        "W1_500_50": 1.1102808439835207e-11,
+        "W2_30_0": 2.645503613266445e-11,
+        "b1_10": 8.476689895121165e-11
+    }
+}
